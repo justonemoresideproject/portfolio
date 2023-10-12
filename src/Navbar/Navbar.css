@@ -1,6 +1,6 @@
 .navbarContainer {
-    width: fit-content;
-    height: 10vh;
+    width: 100vw;
+    height: 5vh;
 
     display: flex;
     flex-direction: row;
@@ -20,14 +20,18 @@
 
     background-color: rgba(2, 2, 2, 0);
     border: none;
-    margin-right: 2px;
+    margin: 0px;
+    padding: 0px;
+    /* margin-right: 2px;
     margin-left: 2px;
-    margin-top: 1px;
+    margin-top: 1px; */
 }
 
 .navbarContainer>div>button {
     height: 100%;
     width: 100%;
+
+    font-size: 1rem;
 
     margin: 0px;
     padding: 0px;
@@ -35,4 +39,9 @@
     background-color: rgba(2, 2, 2, 0);
     color: white;
     box-shadow: none;
+    border: none;
+}
+
+.navbarContainer>div>button:hover {
+    background-color: rgb(34, 33, 33);
 }

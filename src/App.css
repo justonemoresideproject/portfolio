@@ -9,6 +9,8 @@
   background-size: cover;
   
   overflow: hidden;
+
+  min-height: 100vh;
 }
 
 .titleContainer h1 h3 {
@@ -18,10 +20,14 @@
 
 .titleContainer>h1 {
   font-size: 5vw;
+  margin: 0px;
+  padding: 0px;
 }
 
 .titleContainer>h3 {
   font-size: 3vw;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
