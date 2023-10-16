@@ -9,16 +9,18 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='titleContainer'>
-        <h1>
+        <div className='nameTitle'>
           Austin Ellis
-        </h1>
-        <h3>
+        </div>
+        <div className='jobTitle'>
           Software Engineer
-        </h3>
-        <div>
+        </div>
+        <div className='jobDescription'>
           Committed, focused and motivated software engineer always on the lookout for more knowledge and unique challenges.
         </div>
       </div>
+      {/* <div className='divider'>
+      </div> */}
       <Projects />
     </div>
   );

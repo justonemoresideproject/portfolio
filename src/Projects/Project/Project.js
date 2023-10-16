@@ -6,12 +6,16 @@ function Project({project}) {
     console.log(project)
     return (
         <div className='projectContainer'>
-            <h1>
-                {project.name}
-            </h1>
-            <img className='projectImg' />
-            <div className='projectDescription'>
-                {project.description}
+            <div className='projectImgContainer'>
+                <img className='projectImg' src={`${project.img}`}/>
+            </div>
+            <div className='projectDescriptionContainer'>
+                <h1 className='projectTitle'>
+                    {project.name}
+                </h1>
+                <div className='projectDescription'>
+                    {project.description}
+                </div>
             </div>
         </div>
     )
