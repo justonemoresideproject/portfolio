@@ -1,0 +1,9 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+}
+
+.projectImg, .projectDescription {
+    align-self: start;
+}

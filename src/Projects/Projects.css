@@ -1,0 +1,15 @@
+.projectsComponentContainer {
+    border: 3px black solid;
+    background-color: rgba(240, 239, 239, 0.486);
+
+    width: 90vw;
+    align-self: center;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectsListContainer {
+    border: 3px black solid;
+}

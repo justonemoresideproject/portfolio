@@ -19,15 +19,20 @@
 }
 
 .titleContainer>h1 {
-  font-size: 5vw;
+  font-size: 6vw;
   margin: 0px;
   padding: 0px;
 }
 
 .titleContainer>h3 {
-  font-size: 3vw;
+  font-size: 4vw;
   margin: 0px;
   padding: 0px;
+}
+
+div {
+  margin: 0px;
+  padding: 0ppx
 }
 
 .App-logo {
