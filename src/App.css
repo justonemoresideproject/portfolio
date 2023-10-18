@@ -9,11 +9,13 @@
   background-size: cover; */
   /* background-position: center; */
 
-  background-color: white;
+  /* background-color: rgb(20, 18, 151); */
   
   overflow: hidden;
 
   min-height: 100vh;
+
+  color: gray;
 }
 
 .titleContainer {
@@ -34,25 +36,39 @@
 .titleContainer>div {
   margin: 0px;
   padding: 0px;
+
+  text-align: start;
+  white-space:break-spaces;
+}
+
+.intro {
+  font-size: calc(5px + 1vw);
+  color: rgb(1, 175, 1);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  font-weight: 500;
 }
 
 .nameTitle {
   font-size: calc(10px + 3vw);
   font-weight: 500;
+
+  color: rgb(0, 0, 0);
+  line-height: calc(6px + 3vw);
 }
 
 .jobTitle {
-  font-size: calc(8px + 2vw);
+  font-size: calc(8px + 1.5vw);
   font-weight: 400;
+
+  color: gray;
+  line-height: calc(10px + 1.8vw);
 }
 
 .jobDescription {
-  font-size: calc(4px + 1vw);
-}
-
-div {
-  margin: 0px;
-  padding: 0px
+  font-size: calc(5px + 1vw);
+  font-weight: 400;
+  line-height: calc(6px + 1vw);
 }
 
 .divider {

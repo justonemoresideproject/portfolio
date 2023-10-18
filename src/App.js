@@ -9,6 +9,9 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='titleContainer'>
+        {/* <div className='intro'>
+          Hello my name is...
+        </div> */}
         <div className='nameTitle'>
           Austin Ellis
         </div>
