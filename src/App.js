@@ -2,29 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './Navbar/Navbar';
-import Projects from './Projects/Projects';
+import AppRoutes from './AppRoutes';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className='titleContainer'>
-        {/* <div className='intro'>
-          Hello my name is...
-        </div> */}
-        <div className='nameTitle'>
-          Austin Ellis
-        </div>
-        <div className='jobTitle'>
-          Software Engineer
-        </div>
-        <div className='jobDescription'>
-          Committed, focused and motivated software engineer always on the lookout for more knowledge and unique challenges.
-        </div>
-      </div>
-      {/* <div className='divider'>
-      </div> */}
-      <Projects />
+      <BrowserRouter>
+        <Navbar />
+        <AppRoutes />
+      </BrowserRouter>
     </div>
   );
 }

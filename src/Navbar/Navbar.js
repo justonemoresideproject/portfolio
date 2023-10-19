@@ -12,7 +12,12 @@ function Navbar() {
             </div>
             <div>
                 <button>
-                    About
+                    Projects
+                </button>
+            </div>
+            <div>
+                <button>
+                    Resume
                 </button>
             </div>
             <div>
