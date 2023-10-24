@@ -1,11 +1,16 @@
-.portraitContainer {
-    background-image: url('../Photos/background.png');
-
+#portraitContainer {
     display: flex;
     flex-direction: column;
 
-    margin:0px;
+    margin: 5%;
     padding: 0px;
+}
+
+#portraitContainer>img {
+    -webkit-clip-path: circle(75px at 50% 50%);
+    clip-path: circle(75px at 50% 50%);
+
+    background-image: url('../Photos/background.png')
 }
 
 .downloadContainer {

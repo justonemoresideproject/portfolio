@@ -8,9 +8,9 @@ function Portrait() {
         <div id='portraitContainer'  className='componentContainer'>
             <img className='portraitImg' src={logo}/>
             <div className='downloadContainer'>
-                <div>
+                {/* <div>
                     Downloads
-                </div>
+                </div> */}
                 <div className='portraitButtonContainer'>
                     <button>
                         Resume.docx
