@@ -5,7 +5,16 @@ import './Navbar.css'
 function Navbar() {
     return (
         <div id='navbarContainer' className='componentContainer'>
-            <div>
+            <button className='navbarButton'>
+                Home
+            </button>
+            <button className='navbarButton'>
+                Projects
+            </button>
+            <button className='navbarButton'>
+                Contact
+            </button>
+            {/* <div>
                 <button>
                     Home
                 </button>
@@ -19,7 +28,7 @@ function Navbar() {
                 <button>
                     Contact
                 </button>
-            </div>
+            </div> */}
         </div>
     )
 }

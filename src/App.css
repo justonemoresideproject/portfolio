@@ -18,6 +18,11 @@
   color: gray;
 }
 
+.browserRouterWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .componentContainer {
   display: flex;
   flex-direction: column;

@@ -1,20 +1,22 @@
 import React from 'react'
 import './Portrait.css'
 
+import logo from '../logo.svg'
+
 function Portrait() {
     return (
         <div id='portraitContainer'  className='componentContainer'>
-            <img className='portraitImg' src='../logo.svg'/>
+            <img className='portraitImg' src={logo}/>
             <div className='downloadContainer'>
                 <div>
                     Downloads
                 </div>
                 <div className='portraitButtonContainer'>
                     <button>
-                        Resume
+                        Resume.docx
                     </button>
                     <button>
-                        Cover Letter
+                        Cover Letter.docx
                     </button>
                 </div>
             </div>

@@ -10,11 +10,13 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <div className='browserRouterWrapper'>
         <Navbar />
         <div className='portraitRoutesContainer'>
           <Portrait />
           <AppRoutes />
         </div>
+      </div>
       </BrowserRouter>
     </div>
   );
