@@ -1,0 +1,44 @@
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+    /* border: black 3px solid;
+    background-color: rgba(9, 83, 9, 0.589); */
+  
+    width: 90vw;
+  
+    margin-top: 2vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titleContainer>div {
+    margin: 0px;
+    padding: 0px;
+  
+    text-align: start;
+    white-space:break-spaces;
+}
+
+.nameTitle {
+    font-size: calc(10px + 3vw);
+    font-weight: 500;
+  
+    color: rgb(0, 0, 0);
+    line-height: calc(6px + 3vw);
+}
+
+.jobTitle {
+    font-size: calc(8px + 1.5vw);
+    font-weight: 400;
+  
+    color: gray;
+    line-height: calc(10px + 1.8vw);
+}
+
+.jobDescription {
+    font-size: calc(5px + 1vw);
+    font-weight: 400;
+    line-height: calc(6px + 1vw);
+}

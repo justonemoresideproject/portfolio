@@ -1,9 +1,8 @@
 import { React, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Projects from './Projects/Projects';
-import Home from './Home';
-import Resume from './Resume';
-import Contact from './Contact';
+import Home from './Home/Home';
+// import Contact from './Contact';
 
 function AppRoutes() {
     return (
@@ -16,14 +15,10 @@ function AppRoutes() {
                     path='/Projects'
                     element={<Projects />}
                 />
-                <Route
-                    path='/Resume'
-                    element={<Resume />}
-                />
-                <Route
+                {/* <Route
                     path='/Contact'
                     element={<Contact />}
-                />
+                /> */}
             </Routes>
         )
 }

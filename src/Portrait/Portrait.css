@@ -1,0 +1,36 @@
+.portraitContainer {
+    background-image: url('../Photos/background.png');
+
+    display: flex;
+    flex-direction: column;
+
+    margin:0px;
+    padding: 0px;
+}
+
+.downloadContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin:0px;
+    padding: 0px;
+}
+
+.portraitButtonContainer {
+    display: flex;
+    flex-direction: row;
+
+    margin:0px;
+    padding: 0px;
+}
+
+.portraitButtonContainer>button {
+    height: 100%;
+    width: 50%;
+
+    margin: 0px;
+    padding: 0px;
+
+    color: green;
+    background-color: black;
+}

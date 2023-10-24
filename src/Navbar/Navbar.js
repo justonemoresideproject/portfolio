@@ -4,7 +4,7 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <div className='navbarContainer'>
+        <div id='navbarContainer' className='componentContainer'>
             <div>
                 <button>
                     Home
@@ -13,11 +13,6 @@ function Navbar() {
             <div>
                 <button>
                     Projects
-                </button>
-            </div>
-            <div>
-                <button>
-                    Resume
                 </button>
             </div>
             <div>

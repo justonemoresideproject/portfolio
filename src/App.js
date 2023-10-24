@@ -3,6 +3,7 @@ import './App.css';
 
 import Navbar from './Navbar/Navbar';
 import AppRoutes from './AppRoutes';
+import Portrait from './Portrait/Portrait'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <AppRoutes />
+        <div className='portraitRoutesContainer'>
+          <Portrait />
+          <AppRoutes />
+        </div>
       </BrowserRouter>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
     return (
-        <div className='titleContainer'>
+        <div id='homeContainer' className='componentContainer'>
             {/* <div className='intro'>
             Hello my name is...
             </div> */}
@@ -18,3 +18,5 @@ function Home() {
         </div>
     )
 }
+
+export default Home;
