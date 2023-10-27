@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <div className='browserRouterWrapper'>
+      <div id='browserRouterWrapper'>
         <Navbar />
-        <div className='portraitRoutesContainer'>
+        <div id='portraitRoutesContainer'>
           <Portrait />
           <AppRoutes />
         </div>

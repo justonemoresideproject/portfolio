@@ -18,9 +18,12 @@
   color: gray;
 }
 
-.browserRouterWrapper {
+#browserRouterWrapper {
   display: flex;
   flex-direction: row;
+
+  margin-top: .3%;
+  margin-left: .1%;
 }
 
 .componentContainer {
@@ -36,14 +39,13 @@
   font-weight: 500;
 }
 
-.portraitRoutesContainer {
+#portraitRoutesContainer {
   display: flex;
   flex-direction: row;
 
-  width: 70%;
+  width: 80%;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1%;
 }
 
 .divider {

@@ -2,22 +2,27 @@
     display: flex;
     flex-direction: column;
 
-    margin: 5%;
+    margin-right: 2%;
     padding: 0px;
+
+    height: min-content;
+    width: 18%;
+
+    background-image: url('../Photos/background.png');
+
+    border: 5px green solid;
 }
 
 #portraitContainer>img {
     -webkit-clip-path: circle(75px at 50% 50%);
     clip-path: circle(75px at 50% 50%);
-
-    background-image: url('../Photos/background.png')
 }
 
 .downloadContainer {
     display: flex;
     flex-direction: column;
 
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -25,7 +30,7 @@
     display: flex;
     flex-direction: row;
 
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
