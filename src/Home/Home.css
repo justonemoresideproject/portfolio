@@ -21,7 +21,7 @@
     white-space:break-spaces;
 }
 
-.nameTitle {
+#nameTitle {
     font-size: calc(10px + 3vw);
     font-weight: 500;
   
@@ -29,7 +29,7 @@
     line-height: calc(6px + 3vw);
 }
 
-.jobTitle {
+#jobTitle {
     font-size: calc(8px + 1.5vw);
     font-weight: 400;
   
@@ -37,7 +37,7 @@
     line-height: calc(10px + 1.8vw);
 }
 
-.jobDescription {
+#jobDescription {
     font-size: calc(5px + 1vw);
     font-weight: 400;
     line-height: calc(6px + 1vw);

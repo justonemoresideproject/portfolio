@@ -6,11 +6,11 @@
     padding: 0px;
 
     height: min-content;
-    width: 18%;
+    width: 20%;
 
     background-image: url('../Photos/background.png');
 
-    border: 5px green solid;
+    border: 3px rgb(0, 65, 0) solid;
 }
 
 #portraitContainer>img {
@@ -43,4 +43,6 @@
 
     color: green;
     background-color: black;
+
+    box-shadow: none;
 }

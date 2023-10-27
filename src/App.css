@@ -9,7 +9,8 @@
   background-size: cover; */
   /* background-position: center; */
 
-  /* background-color: rgb(20, 18, 151); */
+  /* background-color: rgba(0, 0, 37, 0.925); */
+  background: linear-gradient(rgb(0, 8, 0), rgb(1, 66, 1), black);
   
   overflow: hidden;
 
@@ -24,6 +25,10 @@
 
   margin-top: .3%;
   margin-left: .1%;
+
+  padding: 1%;
+
+  /* background-color: green; */
 }
 
 .componentContainer {
@@ -44,8 +49,12 @@
   flex-direction: row;
 
   width: 80%;
+  height: 90vh;
 
   margin-left: 1%;
+  padding: 1%;
+
+  background-color: rgba(255, 255, 255, 0.062);
 }
 
 .divider {
