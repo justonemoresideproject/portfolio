@@ -14,7 +14,9 @@ function App() {
         <Navbar />
         <div id='portraitRoutesContainer'>
           <Portrait />
-          <AppRoutes />
+          <div id='routesContainer'>
+            <AppRoutes />
+          </div>
         </div>
       </div>
       </BrowserRouter>

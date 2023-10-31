@@ -9,14 +9,14 @@
   background-size: cover; */
   /* background-position: center; */
 
-  /* background-color: rgba(0, 0, 37, 0.925); */
-  background: linear-gradient(rgb(0, 8, 0), rgb(1, 66, 1), black);
+  background-color: rgba(143, 143, 143, 0.925);
+  /* background: linear-gradient(rgb(0, 8, 0), rgb(1, 66, 1), black); */
   
   overflow: hidden;
 
   min-height: 100vh;
 
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 
 #browserRouterWrapper {
@@ -29,6 +29,14 @@
   padding: 1%;
 
   /* background-color: green; */
+}
+
+#routesContainer {
+  width: 80vw;
+  height: 80vh;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-left: 2%;
 }
 
 .componentContainer {

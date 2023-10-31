@@ -6,7 +6,7 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div id='projectsComponentContainer' className='componentContainer'>
+        <div id='projectsComponentContainer' className='componentContainer routeContainer'>
             {/* <div className='optionsContainer'>
                 <button>
                     Option 1

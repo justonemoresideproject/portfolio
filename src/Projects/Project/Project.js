@@ -3,7 +3,6 @@ import React from 'react'
 import './Project.css'
 
 function Project({project}) {
-    console.log(project)
     return (
         <div className='projectContainer'>
             <div className='projectImgContainer'>

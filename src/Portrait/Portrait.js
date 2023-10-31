@@ -7,18 +7,13 @@ function Portrait() {
     return (
         <div id='portraitContainer'  className='componentContainer'>
             <img className='portraitImg' src={logo}/>
-            <div className='downloadContainer'>
-                {/* <div>
-                    Downloads
-                </div> */}
-                <div className='portraitButtonContainer'>
-                    <button>
-                        Resume.docx
-                    </button>
-                    <button>
-                        Cover Letter.docx
-                    </button>
-                </div>
+            <div id='downloadContainer'>
+                <button>
+                    Resume.docx
+                </button>
+                <button>
+                    Cover Letter.docx
+                </button>
             </div>
         </div>
     )

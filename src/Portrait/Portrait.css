@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
 
-    margin-right: 2%;
+    /* margin-right: 2%; */
     padding: 0px;
 
-    height: min-content;
-    width: 20%;
+    height: 20vh;
+    width: 20vw;
 
     background-image: url('../Photos/background.png');
 
@@ -18,20 +18,14 @@
     clip-path: circle(75px at 50% 50%);
 }
 
-.downloadContainer {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0px;
-    padding: 0px;
-}
-
-.portraitButtonContainer {
+#downloadContainer {
     display: flex;
     flex-direction: row;
 
     margin: 0px;
     padding: 0px;
+
+    font-size: calc(.2vw);
 }
 
 .portraitButtonContainer>button {

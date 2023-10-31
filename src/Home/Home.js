@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
     return (
-        <div id='homeContainer' className='componentContainer'>
+        <div id='homeContainer' className='componentContainer routeContainer'>
             {/* <div className='intro'>
             Hello my name is...
             </div> */}
