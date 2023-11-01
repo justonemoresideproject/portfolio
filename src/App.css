@@ -19,6 +19,35 @@
   color: rgb(0, 0, 0);
 }
 
+#componentWrapper {
+  display: flex;
+  flex-direction: row;
+
+  width: 94vw;
+  height: 90vh;
+
+  margin: auto;
+}
+
+#routesContainer {
+  width: 90%;
+  height: 80%;
+
+  overflow: auto;
+  overflow-x: hidden;
+  padding-left: 1%;
+}
+
+#navbarPortraitWrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 10%;
+  height: 80%;
+}
+
+
+
 #browserRouterWrapper {
   display: flex;
   flex-direction: row;
@@ -31,13 +60,13 @@
   /* background-color: green; */
 }
 
-#routesContainer {
-  width: 80vw;
+/* #routesContainer {
+  width: 90vw;
   height: 80vh;
   overflow: auto;
   overflow-x: hidden;
   padding-left: 2%;
-}
+} */
 
 .componentContainer {
   display: flex;

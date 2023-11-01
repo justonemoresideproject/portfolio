@@ -6,7 +6,9 @@ import logo from '../logo.svg'
 function Portrait() {
     return (
         <div id='portraitContainer'  className='componentContainer'>
-            <img className='portraitImg' src={logo}/>
+            <div id='imageContainer'>
+                <img className='portraitImg' src={logo}/>
+            </div>
             <div id='downloadContainer'>
                 <button>
                     Resume.docx

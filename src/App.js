@@ -10,15 +10,24 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <div id='browserRouterWrapper'>
-        <Navbar />
-        <div id='portraitRoutesContainer'>
-          <Portrait />
+        <div id='componentWrapper'>
+          <div id='navbarPortraitWrapper'>
+            <Portrait />
+            <Navbar />
+          </div>
           <div id='routesContainer'>
             <AppRoutes />
           </div>
         </div>
-      </div>
+        {/* <div id='browserRouterWrapper'>
+          <Navbar />
+          <div id='portraitRoutesContainer'>
+            <Portrait />
+            <div id='routesContainer'>
+              <AppRoutes />
+            </div>
+          </div>
+        </div> */}
       </BrowserRouter>
     </div>
   );
