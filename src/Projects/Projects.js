@@ -6,7 +6,7 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div id='projectsComponentContainer' className='componentContainer routeContainer'>
+        <div id='projectsComponentContainer' className='componentWrapper routeContainer'>
             {/* <div className='optionsContainer'>
                 <button>
                     Option 1
@@ -18,6 +18,9 @@ function Projects() {
                     Option 3
                 </button>
             </div> */}
+            <h1>
+                Projects
+            </h1>
             <div className='projectsListContainer'>
                 {projectList.map(project => {
                     return (<Project project={project} />)

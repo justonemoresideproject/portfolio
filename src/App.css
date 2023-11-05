@@ -9,7 +9,7 @@
   background-size: cover; */
   /* background-position: center; */
 
-  background-color: rgba(143, 143, 143, 0.925);
+  background-color: rgb(141, 133, 133);
   /* background: linear-gradient(rgb(0, 8, 0), rgb(1, 66, 1), black); */
   
   overflow: hidden;
@@ -19,34 +19,38 @@
   color: rgb(0, 0, 0);
 }
 
-#componentWrapper {
+#componentContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-self: center;
 
   width: 94vw;
-  height: 90vh;
+  height: 100vh;
+  /* height: 95vh; */
 
-  margin: auto;
+  margin: 0px;
+
+  background-color: rgba(143, 143, 143, 0.925);
+}
+
+#portraitRoutesContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
 }
 
 #routesContainer {
-  width: 90%;
-  height: 80%;
+  width: 85%;
+  height: 100%;
 
   overflow: auto;
   overflow-x: hidden;
   padding-left: 1%;
 }
-
-#navbarPortraitWrapper {
-  display: flex;
-  flex-direction: column;
-
-  width: 10%;
-  height: 80%;
-}
-
-
 
 #browserRouterWrapper {
   display: flex;
@@ -68,9 +72,11 @@
   padding-left: 2%;
 } */
 
-.componentContainer {
+.componentWrapper {
   display: flex;
   flex-direction: column;
+
+  height: 100vh;
 }
 
 .intro {
@@ -81,7 +87,7 @@
   font-weight: 500;
 }
 
-#portraitRoutesContainer {
+/* #portraitRoutesContainer {
   display: flex;
   flex-direction: row;
 
@@ -92,7 +98,7 @@
   padding: 1%;
 
   background-color: rgba(255, 255, 255, 0.062);
-}
+} */
 
 .divider {
   width: 100vw;

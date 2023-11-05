@@ -39,3 +39,8 @@
     padding-right: 1vw;
     padding-left: 1vw;
 }
+
+.linkTag {
+    text-decoration: underline;
+    color: blue;
+}

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 function Navbar() {
     const navigate = useNavigate()
     return (
-        <div id='navbarContainer' className='componentContainer'>
+        <div id='navbarContainer'>
             <button 
             className='navbarButton' 
             onClick={() => navigate('/')}>

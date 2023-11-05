@@ -4,7 +4,15 @@
     display: flex;
     flex-direction: column;
     
-    height: 90%;
+    height: 100%;
+    scrollbar-color: black;
+
+    text-align: start;
+}
+
+#projectsComponentContainer>h1 {
+    margin-bottom: 0px;
+    text-decoration: underline solid black;
 }
 
 .projectsListContainer {

@@ -5,7 +5,7 @@ import logo from '../logo.svg'
 
 function Portrait() {
     return (
-        <div id='portraitContainer'  className='componentContainer'>
+        <div id='portraitContainer'  className='componentWrapper'>
             <div id='imageContainer'>
                 <img className='portraitImg' src={logo}/>
             </div>
