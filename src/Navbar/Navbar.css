@@ -1,21 +1,12 @@
-/* .navbarContainer {
-    width: 100vw;
-    height: 5vh;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    align-content: flex-end;
-
-    background-color: black;
-    border: 1px rgb(1, 54, 1);
-} */
-
 #navbarContainer {
     width: 40%;
+    height: 6vh;
     align-self: flex-start;
     display: flex;
     flex-direction: row;
+
+    margin: 0px;
+    margin-left: 3vw;
 }
 
 #navbarContainer>div {
@@ -32,16 +23,15 @@
 }
 
 .navbarButton {
-    /* height: calc(10px + 4vw);
-    width: calc(20px + 6vw); */
-
     width: 100%;
-    height: fit-content;
+    height: 90%;
 
     font-size: calc(2px + 1.2vw);
-
-    margin-top: calc(5px + .25vh);
-    margin-bottom: calc(5px + .25vh);
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-top: calc(5px + .25vh);
+    margin-bottom: calc(5px + .25vh); */
     /* margin: calc(10px + .5vh); */
     padding: 0px;
 
@@ -79,8 +69,3 @@
     opacity: 1;
     transition: 0s
 } */
-
-.navbarContainer>div>button:hover {
-    /* background-color: rgb(34, 33, 33); */
-    background: linear-gradient(45deg ,rgba(0, 0, 0, 0.5) 0% 40%, rgba(0, 128, 0, 0.5) 30% 70%, rgba(0, 0, 0, 0.5) 60% 100%);
-}

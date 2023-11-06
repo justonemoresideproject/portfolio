@@ -6,8 +6,9 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div id='projectsComponentContainer' className='componentWrapper routeContainer'>
-            {/* <div className='optionsContainer'>
+        <div id='projectsComponentContainer' className='routeContainer'>
+            {/* 
+            <div id='optionsContainer'>
                 <button>
                     Option 1
                 </button>
@@ -17,7 +18,8 @@ function Projects() {
                 <button>
                     Option 3
                 </button>
-            </div> */}
+            </div> 
+            */}
             <h1>
                 Projects
             </h1>

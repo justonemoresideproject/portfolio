@@ -14,7 +14,8 @@ function App() {
           <Navbar />
           <div id='portraitRoutesContainer'>
             <Portrait />
-            {/* <div id='portraitContainer'>
+            {/* 
+            <div id='portraitContainer'>
               <Portrait />
             </div> */}
             <div id='routesContainer'>
